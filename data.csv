@@ -1,0 +1,21 @@
+first_name,last_name,student_id,CSIT110,CSIT121,CSIT135,CSIT142,Rule to test,Expected output
+CFN,CLN,S1023456I,54,78,65,54,Invalid last letter,The last letter is invalid as the last letter should be H
+DFN,DLN,S123A,54,56,65,43,Length is not 9,Length is not 9
+Henry,Marcus,S12345D,55,55,55,55,Does not have a length of 9,Length is not 9
+John,Lab,A1234567D,22,22,22,22,"Does not start with ""S""",The first letter is not S
+Charlotte,Chocolate,S1234567C,71,38,13,75,Last letter is invalid,the last letter is invalid as the last letter should be I
+Milky,Daisy,C8296742F,33,36,8,67,"Does not start with ""S""",The first letter is not S
+Isabella,Bell,S1111111A,19,73,81,89,Not a letter (Between B to L),Invalid last letter (Not between B and L)
+Ava,Lim,S02342D,24,75,80,39,Does not have a length of 9,Length is not 9
+Amelia,Lau,SABCDEFGD,75,67,73,80,Does not contains 7 numbers between the two letters,Not every value inbetween 1st and last alphabet are digits
+AFN,ALN,S1012342D,89,67,54,78,Valid student ID,Valid student ID
+BFN,BLN,S1014322H,87,78,86,67,Valid student ID,Valid student ID
+Janice,Lim,S1234563L,100,100,100,100,Valid student ID,Valid student ID
+Elijah,Tan,S6238932C,25,57,99,82,Valid student ID,Valid student ID
+Cherlynn,Ng,S1231428B,100,100,100,100,Valid student ID,Valid student ID
+Logan,Longan,S2017972I,40,27,4,20,Valid student ID,Valid student ID
+James,William,S3859962J,100,82,44,74,Valid student ID,Valid student ID
+Noah,Yap,S1071582K,26,2,26,64,Valid student ID,Valid student ID
+Emma,Watson,S6480042G,12,39,86,23,Valid student ID,Valid student ID
+Olivia,Olive,S8254112E,89,96,15,63,Valid student ID,Valid student ID
+Mia,missing,S8296742F,37,45,14,89,Valid student ID,Valid student ID
